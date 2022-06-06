@@ -18,7 +18,7 @@ const path = require('path')
 const debug = require('debug')('cypress-workshop-basics')
 
 const getDbFilename = () =>
-  path.join(__dirname, '..', '..', 'todomvc', 'data.json')
+  path.join(__dirname, '..', '..', 'data.json')
 
 const findRecord = (title) => {
   const dbFilename = getDbFilename()
